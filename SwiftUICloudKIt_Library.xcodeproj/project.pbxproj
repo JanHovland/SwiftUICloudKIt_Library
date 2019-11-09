@@ -14,6 +14,7 @@
 		DB4545CF2377202700610AA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB4545CE2377202700610AA9 /* Assets.xcassets */; };
 		DB4545D22377202700610AA9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB4545D12377202700610AA9 /* Preview Assets.xcassets */; };
 		DB4545D52377202700610AA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB4545D32377202700610AA9 /* LaunchScreen.storyboard */; };
+		DB4545DF2377206200610AA9 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB4545DE2377206200610AA9 /* CloudKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		DB4545D12377202700610AA9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DB4545D42377202700610AA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB4545D62377202700610AA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB4545DC2377205800610AA9 /* SwiftUICloudKIt_Library.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUICloudKIt_Library.entitlements; sourceTree = "<group>"; };
+		DB4545DE2377206200610AA9 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB4545DF2377206200610AA9 /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +48,7 @@
 			children = (
 				DB4545C42377202500610AA9 /* SwiftUICloudKIt_Library */,
 				DB4545C32377202500610AA9 /* Products */,
+				DB4545DD2377206200610AA9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +63,7 @@
 		DB4545C42377202500610AA9 /* SwiftUICloudKIt_Library */ = {
 			isa = PBXGroup;
 			children = (
+				DB4545DC2377205800610AA9 /* SwiftUICloudKIt_Library.entitlements */,
 				DB4545C52377202500610AA9 /* AppDelegate.swift */,
 				DB4545C72377202500610AA9 /* SceneDelegate.swift */,
 				DB4545CC2377202500610AA9 /* ContentView.swift */,
@@ -76,6 +82,14 @@
 				DB4545D12377202700610AA9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DB4545DD2377206200610AA9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB4545DE2377206200610AA9 /* CloudKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,6 +302,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SwiftUICloudKIt_Library/SwiftUICloudKIt_Library.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUICloudKIt_Library/Preview Content\"";
 				DEVELOPMENT_TEAM = 6UR9TA6744;
@@ -308,6 +323,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SwiftUICloudKIt_Library/SwiftUICloudKIt_Library.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUICloudKIt_Library/Preview Content\"";
 				DEVELOPMENT_TEAM = 6UR9TA6744;
