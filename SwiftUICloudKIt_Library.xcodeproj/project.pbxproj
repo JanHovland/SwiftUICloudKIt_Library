@@ -15,6 +15,12 @@
 		DB4545D22377202700610AA9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB4545D12377202700610AA9 /* Preview Assets.xcassets */; };
 		DB4545D52377202700610AA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB4545D32377202700610AA9 /* LaunchScreen.storyboard */; };
 		DB4545DF2377206200610AA9 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB4545DE2377206200610AA9 /* CloudKit.framework */; };
+		DB4545E1237724CF00610AA9 /* ListElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4545E0237724CF00610AA9 /* ListElement.swift */; };
+		DB4545E32377251100610AA9 /* ListElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4545E22377251100610AA9 /* ListElements.swift */; };
+		DB4545E52377257400610AA9 /* UserElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4545E42377257400610AA9 /* UserElement.swift */; };
+		DB4545E7237725A800610AA9 /* UserElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4545E6237725A800610AA9 /* UserElements.swift */; };
+		DB4545E92377267C00610AA9 /* CloudKitHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4545E82377267C00610AA9 /* CloudKitHelper.swift */; };
+		DB4545EB237726C400610AA9 /* CloudKitUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4545EA237726C400610AA9 /* CloudKitUser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +35,12 @@
 		DB4545D62377202700610AA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB4545DC2377205800610AA9 /* SwiftUICloudKIt_Library.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUICloudKIt_Library.entitlements; sourceTree = "<group>"; };
 		DB4545DE2377206200610AA9 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		DB4545E0237724CF00610AA9 /* ListElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListElement.swift; sourceTree = "<group>"; };
+		DB4545E22377251100610AA9 /* ListElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListElements.swift; sourceTree = "<group>"; };
+		DB4545E42377257400610AA9 /* UserElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserElement.swift; sourceTree = "<group>"; };
+		DB4545E6237725A800610AA9 /* UserElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserElements.swift; sourceTree = "<group>"; };
+		DB4545E82377267C00610AA9 /* CloudKitHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitHelper.swift; sourceTree = "<group>"; };
+		DB4545EA237726C400610AA9 /* CloudKitUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitUser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +78,13 @@
 				DB4545DC2377205800610AA9 /* SwiftUICloudKIt_Library.entitlements */,
 				DB4545C52377202500610AA9 /* AppDelegate.swift */,
 				DB4545C72377202500610AA9 /* SceneDelegate.swift */,
+				DB4545E0237724CF00610AA9 /* ListElement.swift */,
+				DB4545E22377251100610AA9 /* ListElements.swift */,
+				DB4545E42377257400610AA9 /* UserElement.swift */,
 				DB4545CC2377202500610AA9 /* ContentView.swift */,
+				DB4545E82377267C00610AA9 /* CloudKitHelper.swift */,
+				DB4545E6237725A800610AA9 /* UserElements.swift */,
+				DB4545EA237726C400610AA9 /* CloudKitUser.swift */,
 				DB4545CE2377202700610AA9 /* Assets.xcassets */,
 				DB4545D32377202700610AA9 /* LaunchScreen.storyboard */,
 				DB4545D62377202700610AA9 /* Info.plist */,
@@ -163,10 +181,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB4545E32377251100610AA9 /* ListElements.swift in Sources */,
+				DB4545EB237726C400610AA9 /* CloudKitUser.swift in Sources */,
+				DB4545E7237725A800610AA9 /* UserElements.swift in Sources */,
 				DB4545CB2377202500610AA9 /* SwiftUICloudKIt_Library.xcdatamodeld in Sources */,
+				DB4545E52377257400610AA9 /* UserElement.swift in Sources */,
 				DB4545C62377202500610AA9 /* AppDelegate.swift in Sources */,
 				DB4545CD2377202500610AA9 /* ContentView.swift in Sources */,
 				DB4545C82377202500610AA9 /* SceneDelegate.swift in Sources */,
+				DB4545E1237724CF00610AA9 /* ListElement.swift in Sources */,
+				DB4545E92377267C00610AA9 /* CloudKitHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
