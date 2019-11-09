@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB4545C62377202500610AA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4545C52377202500610AA9 /* AppDelegate.swift */; };
+		DB4545C82377202500610AA9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4545C72377202500610AA9 /* SceneDelegate.swift */; };
+		DB4545CB2377202500610AA9 /* SwiftUICloudKIt_Library.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DB4545C92377202500610AA9 /* SwiftUICloudKIt_Library.xcdatamodeld */; };
+		DB4545CD2377202500610AA9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4545CC2377202500610AA9 /* ContentView.swift */; };
+		DB4545CF2377202700610AA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB4545CE2377202700610AA9 /* Assets.xcassets */; };
+		DB4545D22377202700610AA9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB4545D12377202700610AA9 /* Preview Assets.xcassets */; };
+		DB4545D52377202700610AA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB4545D32377202700610AA9 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DB4545C22377202500610AA9 /* SwiftUICloudKIt_Library.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUICloudKIt_Library.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB4545C52377202500610AA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB4545C72377202500610AA9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DB4545CA2377202500610AA9 /* SwiftUICloudKIt_Library.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftUICloudKIt_Library.xcdatamodel; sourceTree = "<group>"; };
+		DB4545CC2377202500610AA9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DB4545CE2377202700610AA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB4545D12377202700610AA9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DB4545D42377202700610AA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB4545D62377202700610AA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB4545BF2377202500610AA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB4545B92377202500610AA9 = {
+			isa = PBXGroup;
+			children = (
+				DB4545C42377202500610AA9 /* SwiftUICloudKIt_Library */,
+				DB4545C32377202500610AA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB4545C32377202500610AA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB4545C22377202500610AA9 /* SwiftUICloudKIt_Library.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB4545C42377202500610AA9 /* SwiftUICloudKIt_Library */ = {
+			isa = PBXGroup;
+			children = (
+				DB4545C52377202500610AA9 /* AppDelegate.swift */,
+				DB4545C72377202500610AA9 /* SceneDelegate.swift */,
+				DB4545CC2377202500610AA9 /* ContentView.swift */,
+				DB4545CE2377202700610AA9 /* Assets.xcassets */,
+				DB4545D32377202700610AA9 /* LaunchScreen.storyboard */,
+				DB4545D62377202700610AA9 /* Info.plist */,
+				DB4545C92377202500610AA9 /* SwiftUICloudKIt_Library.xcdatamodeld */,
+				DB4545D02377202700610AA9 /* Preview Content */,
+			);
+			path = SwiftUICloudKIt_Library;
+			sourceTree = "<group>";
+		};
+		DB4545D02377202700610AA9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DB4545D12377202700610AA9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB4545C12377202500610AA9 /* SwiftUICloudKIt_Library */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB4545D92377202700610AA9 /* Build configuration list for PBXNativeTarget "SwiftUICloudKIt_Library" */;
+			buildPhases = (
+				DB4545BE2377202500610AA9 /* Sources */,
+				DB4545BF2377202500610AA9 /* Frameworks */,
+				DB4545C02377202500610AA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftUICloudKIt_Library;
+			productName = SwiftUICloudKIt_Library;
+			productReference = DB4545C22377202500610AA9 /* SwiftUICloudKIt_Library.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB4545BA2377202500610AA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Jan Hovland";
+				TargetAttributes = {
+					DB4545C12377202500610AA9 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = DB4545BD2377202500610AA9 /* Build configuration list for PBXProject "SwiftUICloudKIt_Library" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB4545B92377202500610AA9;
+			productRefGroup = DB4545C32377202500610AA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB4545C12377202500610AA9 /* SwiftUICloudKIt_Library */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB4545C02377202500610AA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB4545D52377202700610AA9 /* LaunchScreen.storyboard in Resources */,
+				DB4545D22377202700610AA9 /* Preview Assets.xcassets in Resources */,
+				DB4545CF2377202700610AA9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB4545BE2377202500610AA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB4545CB2377202500610AA9 /* SwiftUICloudKIt_Library.xcdatamodeld in Sources */,
+				DB4545C62377202500610AA9 /* AppDelegate.swift in Sources */,
+				DB4545CD2377202500610AA9 /* ContentView.swift in Sources */,
+				DB4545C82377202500610AA9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DB4545D32377202700610AA9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB4545D42377202700610AA9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB4545D72377202700610AA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DB4545D82377202700610AA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB4545DA2377202700610AA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUICloudKIt_Library/Preview Content\"";
+				DEVELOPMENT_TEAM = 6UR9TA6744;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SwiftUICloudKIt_Library/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.janhovland.SwiftUICloudKIt-Library";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB4545DB2377202700610AA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUICloudKIt_Library/Preview Content\"";
+				DEVELOPMENT_TEAM = 6UR9TA6744;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SwiftUICloudKIt_Library/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.janhovland.SwiftUICloudKIt-Library";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB4545BD2377202500610AA9 /* Build configuration list for PBXProject "SwiftUICloudKIt_Library" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB4545D72377202700610AA9 /* Debug */,
+				DB4545D82377202700610AA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB4545D92377202700610AA9 /* Build configuration list for PBXNativeTarget "SwiftUICloudKIt_Library" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB4545DA2377202700610AA9 /* Debug */,
+				DB4545DB2377202700610AA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DB4545C92377202500610AA9 /* SwiftUICloudKIt_Library.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DB4545CA2377202500610AA9 /* SwiftUICloudKIt_Library.xcdatamodel */,
+			);
+			currentVersion = DB4545CA2377202500610AA9 /* SwiftUICloudKIt_Library.xcdatamodel */;
+			path = SwiftUICloudKIt_Library.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DB4545BA2377202500610AA9 /* Project object */;
+}
