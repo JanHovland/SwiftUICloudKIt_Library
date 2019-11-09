@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  SwiftUICloudKIt_Library
+//  SaveCloudKit
 //
-//  Created by Jan Hovland on 09/11/2019.
+//  Created by Jan Hovland on 08/11/2019.
 //  Copyright © 2019 Jan Hovland. All rights reserved.
 //
 
@@ -42,7 +42,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
          application to it. This property is optional since there are legitimate
          error conditions that could cause the creation of the store to fail.
         */
-        let container = NSPersistentCloudKitContainer(name: "SwiftUICloudKIt_Library")
+        let container = NSPersistentCloudKitContainer(name: "SaveCloudKit")
         container.loadPersistentStores(completionHandler: { (storeDescription, error) in
             if let error = error as NSError? {
                 // Replace this implementation with code to handle the error appropriately.
@@ -79,4 +79,3 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
 }
-
